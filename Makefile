@@ -1,3 +1,3 @@
-PARAMS := -O3 -Wall -v -pthread
+PARAMS := -Os -Wall -pthread
 app:
 	gcc deadlocks.c -odeadlock $(PARAMS)
